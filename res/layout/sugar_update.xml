@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/b2"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/update_value"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:hint="Current sugar level"
+        android:inputType="number|numberDecimal"
+        android:textColor="#FFFFFF" >
+
+        <requestFocus />
+    </EditText>
+    
+    <RadioGroup
+        android:id="@+id/radiounit"
+        android:layout_width="231dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:id="@+id/rdmg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginLeft="0dp"
+            android:text="mg/dL"
+            android:textColor="#FFFFFF" />
+
+        <RadioButton
+            android:id="@+id/rdmol"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="mmol/L"
+            android:textColor="#FFFFFF" />
+
+    </RadioGroup>
+    
+    <EditText
+        android:id="@+id/update_age"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:ems="10"
+        android:hint="Current age"
+        android:inputType="number|numberDecimal"
+        android:textColor="#FFFFFF" >
+        
+    </EditText>
+    
+    
+    <EditText
+        android:id="@+id/update_weight"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:ems="10"
+        android:hint="Current weight(kg)"
+        android:inputType="number|numberDecimal"
+        android:textColor="#FFFFFF" >
+        
+    </EditText>
+    
+        <EditText
+        android:id="@+id/update_height"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:ems="10"
+        android:hint="Current height(cm)"
+        android:inputType="number|numberDecimal"
+        android:textColor="#FFFFFF" >
+        
+    </EditText>
+
+    <Button
+        android:id="@+id/update_s_level"
+        android:layout_width="wrap_content"
+        android:layout_height="37dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/button_style"
+        android:text="Update" />
+
+</LinearLayout>

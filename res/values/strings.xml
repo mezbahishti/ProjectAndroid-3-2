@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Meals Plan</string>
+    <string name="menu_settings">Settings</string>
+    <string name="profile"><b>Profile</b></string>
+    <string-array name="meals">
+        <item>Breakfast</item>
+        <item>Lunch</item>
+        <item>Dinner</item>
+        <item>Outdoor</item>
+        <item>others</item>
+    </string-array>
+</resources>
